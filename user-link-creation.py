@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
  
  
-url = 'https://ful.io'
+url= input("Enter username:")
 reqs = requests.get(url)
 soup = BeautifulSoup(reqs.text, 'html.parser')
  
